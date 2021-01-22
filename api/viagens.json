@@ -1,0 +1,51 @@
+[
+    {
+    "id":"OURO PRETO-MG",
+    "img":"../api/api-img/ouropreto.jpg",
+    "preco":"R$2.534,50",
+    "diaria":3,
+    "cafe":"café da manhã"
+    },
+
+    {
+        "id":"GRAMADO-RS",
+        "img":"../api/api-img/gramado.jpg",
+        "preco":"R$3.585,00",
+        "diaria":3,
+        "cafe":"café da manhã"
+    },
+
+    {
+        "id":"MARAGOGI-AL",
+        "img":"../api/api-img/maragogi.jpg",
+        "preco":"R$1.250,00",
+        "diaria":2,
+        "cafe":"café da manhã"
+    },  
+
+    {
+        "id":"RECIFE-PE",
+        "img":"../api/api-img/recife.jpg",
+        "preco":"R$2.600,00",
+        "diaria":3,
+        "cafe":"café da manhã"
+    },
+
+    {
+        "id":"TERESINA-PI",
+        "img":"../api/api-img/teresina.jpg",
+        "preco":"R$1.250,00",
+        "diaria":2,
+        "cafe":"café da manhã"
+    },
+
+    {
+        "id":"VITÓRIA-ES",
+        "img":"../api/api-img/vitoria.jpg",
+        "preco":"R$3.125,00",
+        "diaria":3,
+        "cafe":"café da manhã"
+    }
+    
+
+]
