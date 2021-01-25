@@ -1,50 +1,50 @@
 [
     {
     "id":"OURO PRETO-MG",
-    "img":"../api/api-img/ouropreto.jpg",
+    "img":"./api/api-img/ouropreto.png",
     "preco":"R$2.534,50",
     "diaria":3,
-    "cafe":"café da manhã"
+    "cafe":"CAFÉ DA MANHÃ"
     },
 
     {
         "id":"GRAMADO-RS",
-        "img":"../api/api-img/gramado.jpg",
+        "img":"./api/api-img/gramado.png",
         "preco":"R$3.585,00",
         "diaria":3,
-        "cafe":"café da manhã"
+        "cafe":"CAFÉ DA MANHÃ"
     },
 
     {
         "id":"MARAGOGI-AL",
-        "img":"../api/api-img/maragogi.jpg",
+        "img":"./api/api-img/maragogi.png",
         "preco":"R$1.250,00",
         "diaria":2,
-        "cafe":"café da manhã"
+        "cafe":"CAFÉ DA MANHÃ"
     },  
 
     {
         "id":"RECIFE-PE",
-        "img":"../api/api-img/recife.jpg",
+        "img":"./api/api-img/recife.png",
         "preco":"R$2.600,00",
         "diaria":3,
-        "cafe":"café da manhã"
+        "cafe":"CAFÉ DA MANHÃ"
     },
 
     {
         "id":"TERESINA-PI",
-        "img":"../api/api-img/teresina.jpg",
+        "img":"./api/api-img/teresina.png",
         "preco":"R$1.250,00",
         "diaria":2,
-        "cafe":"café da manhã"
+        "cafe":"CAFÉ DA MANHÃ"
     },
 
     {
         "id":"VITÓRIA-ES",
-        "img":"../api/api-img/vitoria.jpg",
+        "img":"./api/api-img/vitoria.png",
         "preco":"R$3.125,00",
         "diaria":3,
-        "cafe":"café da manhã"
+        "cafe":"CAFÉ DA MANHÃ"
     }
     
 

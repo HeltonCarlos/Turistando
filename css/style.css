@@ -46,22 +46,24 @@ main{background-image: url('../img/backtop.png');height: 70vh;background-size: c
 .container-boxes{display: flex;justify-content: space-between;flex-wrap: wrap;margin-right: 20px;align-items: center;}
 
 .box{box-shadow:2px 1px 1px rgba(20, 20, 20, 0.20);
-    padding-bottom: 30px;background-color: rgb(243, 243, 243);}
+padding-bottom: 30px;
+background-color: rgb(243, 243, 243);margin-right: 20px;margin-bottom: 20px;}
 
-.box .diaria{display: flex;margin-bottom: 20px;}
+.box .diaria{display: flex;margin-bottom: 20px;align-items: flex-end;}
 
-.box .diaria p{font-size: 18px;padding-right: 20px;}
+.box .diaria p{font-size: 15px;padding-right: 5px;}
 
 .box .box-texto{margin-left: 20px;}
 
 .box .box-texto h3{padding-top: 10px;font-size: 20px;}
 
-.box a{padding: 8px 40px;margin-left: 38px;
+.box a{padding: 8px 40px;margin-left: 40px;
 background-color: #FC00A8;
 color: #fff; align-items: center;
 font-size: 18px;
 margin-bottom: 20px;}
 
+.box a:hover{background-color: #756C6C;transition: 1s;}
 
 
 

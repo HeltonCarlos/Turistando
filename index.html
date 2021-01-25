@@ -56,21 +56,27 @@
 
             <div class="container-boxes">
 
-                <div class="box">
-                   <img src="api/api-img/ouropreto.png" alt="" width="300px">
+                <div v-for="viagem in viagens" :key="viagem.id" class="box">
+                    
+                   <img :src="viagem.img" alt="viagem.id" width="300px">
 
                    <div class="box-texto">
-                        <h3>OURO PRETO -MG</h3> 
+                        <h3>{{viagem.id}}</h3> 
                         <p>Diárias a partir de:</p>
-                        <h3>R$2.534,50</h3>
-                        <span><img src="img/estrela.png" alt="estrela"></span>
+                        <h3>{{viagem.preco}}</h3>
+                        <span>
+<img src="img/estrela.png" alt="estrela" width="20px">
+<img src="img/estrela.png" alt="estrela" width="20px">
+<img src="img/estrela.png" alt="estrela" width="20px">
+<img src="img/estrela.png" alt="estrela" width="20px">
+                        </span>
 
                         
                         <div class="diaria">
                         
-                        <img src="img/sol.png" alt="diaria"><p>sol</p>
+                        <img src="img/sol.png" alt="diaria"><p>{{viagem.diaria}} DIÁRIAS</p>
 
-                        <img src="img/cafe.png" alt="cafe"><p>cafeé</p>
+                        <img src="img/cafe.png" alt="cafe"><p>{{viagem.cafe}}</p>
                     
                         </div>
                       
@@ -81,7 +87,7 @@
                 </div>
             </div>
 
-            {{viagens}}
+    
         </div>
     </section>
 
