@@ -25,11 +25,11 @@ main{background-image: url('../img/backtop.png');height: 70vh;background-size: c
 
 .hero{padding-top: 55px;max-width: 80%;margin: 0 auto;}
 
-.frente h3{text-transform: uppercase;color: #fff;background-color: #FC00A8;padding: 10px;max-width: 50%;font-size: 25px;font-weight: 300;}
+.frente h3{text-transform: uppercase;color: #fff;background-color: #FC00A8;padding: 10px;max-width: 40%;font-size: 20px;font-weight: 300;}
 
-.frente h2{font-size: 50px;text-transform: uppercase;color: #fff;}
+.frente h2{font-size: 45px;text-transform: uppercase;color: #fff;}
 
-.frente p{font-size: 25px;color: #fff;}
+.frente p{font-size: 18px;color: #fff;}
 
 .frente span{font-size: 25px;color: #fff;padding-right: 20px;margin-left: 50px;}
 
