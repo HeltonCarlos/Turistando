@@ -26,27 +26,32 @@ header{background-color:#0F195B;color: #fff;}
 /*main*/
 
 
-main{background-image: url('../img/backtop.png');height: 70vh;background-size: cover;}
+main{background-image: url('../img/backtop.png');height: 75vh;background-size: cover;}
 
-.hero{padding-top: 55px;max-width: 80%;margin: 0 auto;}
+.hero{padding-top: 40px;max-width: 80%;margin: 0 auto;}
 
 .frente h3{text-transform: uppercase;color: #fff;background-color: #FC00A8;padding: 10px;max-width: 40%;font-size: 20px;font-weight: 300;}
 
 .frente h2{font-size: 45px;text-transform: uppercase;color: #fff;}
 
-.frente p{font-size: 18px;color: #fff;}
+.frente p{font-size: 18px;color: #fff;padding-bottom: 20px;}
 
 .frente span{font-size: 25px;color: #fff;padding-right: 20px;margin-left: 50px;}
 
 .frente .sh h2{font-size: 80px;}
 
+.frente a{background-color: #850058;padding: 10px 20px 10px 20px;color:#ffffff;}
+
+.frente a img{padding-left: 20px;}
+.frente a:hover{background-color: #FC00A8;transition: 2s;}
 .sh{display: flex;}
+
 
 @media(max-width:750px){
     .frente h3{font-size:18px;max-width: 70%;}
     .frente h2{font-size: 25px;padding-top: 10px;}
     .frente span{margin-left: 0px;}
-.frente .sh h2{font-size: 80px;}}
+    .frente .sh h2{font-size: 80px;}}
 
 /*pacote*/
 
