@@ -40,7 +40,8 @@ header{background-color:#0F195B;color: #fff;}
 .container-box{display: flex;flex-direction: column;padding: 20px;}
 .container-box label{padding: 5px 0px;font-weight: 700;color:#Fff}
 .container-box input, select{padding: 10px 5px;margin: 5px 0px;outline: none;border:none;}
-.container-box input[type=submit]{background-color: #FC00A8;color:#fff;font-weight: 700;}
+.container-box input[type=submit]{background-color: #FC00A8;color:#fff;font-weight: 700;box-shadow: 0 0 0.3em #FC00A8;}
+.container-box input[type=submit]:hover{background-color: #850058;transition: 1s;}
 
 
 @media(max-width:1200px){
