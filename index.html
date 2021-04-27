@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,21 +17,20 @@
 
             <nav class="menu-desk">
                 <ul>
-                    <li><img src="img/bagagem.png" alt="bagagem"><a href="#">Pacote</a></li>
-                    <li><img src="img/jato.png" alt="aviao"><a href="#">Passeios</a></li>
-                    <li><img src="img/presente.png" alt="presente"><a href="#">Promoções</a></li>
-                    <li><img src="img/telefone.png" alt="telefone"><a href="#">Contato</a></li>
+                    <li><img src="img/bagagem.png" alt="bagagem"><a href="#pacotes">Pacote</a></li>
+                    <li><img src="img/jato.png" alt="aviao"><a href="#passeios">Passeios</a></li>
+                    <li><img src="img/presente.png" alt="presente"><a href="#promocao">Promoções</a></li>
+                    <li><img src="img/telefone.png" alt="telefone"><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
 
-    <main>
+    <main class="main">
         <div class="hero">
             <div class="frente">
-
-                <h3>Encontre  as melhores ofertas.</h3>
+                <h3>Encontre as melhores ofertas.</h3>
                 <h2>Turistando EM
                 <br>  MACEIÓ- AL</h2>
                 <p>A PARTIR DE:</p>
@@ -42,11 +41,26 @@
                         <p>OU 5X DE 93,00</p>
                         <a href="#">SAIBA MAIS<img src="img/arrow.png" alt="seta"></a>
                     </div>
-                  
                 </div>
-             
-             </div>
-            
+            </div>
+
+            <div class="hero-box">
+                <div class="container-box">
+                    <label for="origem">Origem</label>
+                    <input type="text" name="origem" id="origem" placeholder="De onde vai sair?">
+                    <label for="destino">Destino</label>
+                    <input type="text" name="destino" id="destino" placeholder="Para onde vai?">
+                    <label for="pessoas">Pessoas</label>
+                    <select name="pessoas" id="pessoas">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="+">+4</option>
+                    </select>
+                    <input type="submit" value="Buscar Pacote">
+                </div>
+            </div>
         </div>
     </main>
 
@@ -70,24 +84,16 @@
                             <img src="img/estrela.png" alt="estrela" width="20px">
                             <img src="img/estrela.png" alt="estrela" width="20px">
                         </span>
-
-                        
                         <div class="diaria">
-                        
                         <img src="img/sol.png" alt="diaria"><p>{{viagem.diaria}} DIÁRIAS</p>
 
                         <img src="img/cafe.png" alt="cafe"><p>{{viagem.cafe}}</p>
-                    
-                        </div>
-                      
+                        </div> 
                     </div>
-                    
                     <a href="#">CONHEÇA MAIS</a>
-              
                 </div>
             </div>
 
-    
         </div>
     </section>
 
@@ -136,7 +142,6 @@
                 <div class="tela2">
                     <h3>PRAIA DO GUNGA</h3>
                     <h5>Maceió - Alagoas</h5>
-                   
                     <p>As praias ficam bem próximas de Maceió, mas fazem parte de outros municípios. A Praia do Francês fica em Marechal Deodoro, depois encontramos a Praia de Barra de São Miguel (na cidade de Barra de São Miguel mesmo) e finalmente a Praia do Gunga, no município de Roteiro.</p>
 
                     <a href="#">CONHEÇA MAIS</a>
@@ -161,7 +166,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="contato">
 
         <div class="container-contato">
         <div class="subtitulo"><img src="img/phone.png" alt="telefone"><h2>CONTATO</h2></div>
@@ -173,8 +178,6 @@
             <textarea name="formulario" placeholder="Digite seu texto"id="formulario" cols="30" rows="10"></textarea>
             <input type="submit" value="Enviar" id="enviar">
         </form>
-
-
 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.411399095815!2d-35.707896885208626!3d-9.645844593094461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x70145b7c4226bdf%3A0xf03d8e7211702f12!2sR.%20Banc%C3%A1rio%20Jos%C3%A9%20Farias%20de%20Almeida%20-%20Jati%C3%BAca%2C%20Macei%C3%B3%20-%20AL!5e0!3m2!1spt-BR!2sbr!4v1611963099547!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
@@ -211,11 +214,10 @@
         </div>
     </footer>
 
-
     </div>
 
-
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/slides.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
